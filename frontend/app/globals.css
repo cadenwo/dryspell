@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Granite greys, moss for dry, lichen for damp, rain blue for wet. */
+:root {
+  --background: #f4f3ef;
+  --foreground: #1c1d1f;
+  --panel: #ffffff;
+  --line: #e2e0d9;
+  --muted: #6b6c6f;
+  --moss: #3f8a4f;
+  --lichen: #b8860b;
+  --rain: #3b6fb6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121314;
+    --foreground: #ecebe7;
+    --panel: #1b1c1e;
+    --line: #2c2d30;
+    --muted: #9a9b9e;
+    --moss: #5fb470;
+    --lichen: #e0b33e;
+    --rain: #6b9be0;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-moss: var(--moss);
+  --color-lichen: var(--lichen);
+  --color-rain: var(--rain);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
