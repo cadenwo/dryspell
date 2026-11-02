@@ -2,7 +2,7 @@
 
 **When will the rock be dry?** Dryspell estimates how wet Pacific Northwest granite bouldering areas are right now and predicts when the next climbable window opens, using a physics-based moisture model driven by hourly rain and FAO-56 evapotranspiration.
 
-**Live demo:** _add your Vercel URL here_ · **API docs:** _add your Render URL here_`/docs`
+**Live demo:** [dryspell.vercel.app](https://dryspell.vercel.app) · **API docs:** [dryspell-api.onrender.com/docs](https://dryspell-api.onrender.com/docs)
 
 ![Dryspell dashboard (demo data)](docs/screenshot.png)
 
